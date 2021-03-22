@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
 const Profile = ({ avatar, name, tag, location, stats }) => {
   return (
@@ -31,6 +32,19 @@ const Profile = ({ avatar, name, tag, location, stats }) => {
       </ul>
     </div>
   );
+};
+
+Profile.defaultProps = {
+  avatar:
+    "https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder",
+};
+
+Profile.propTypes = {
+  avatar: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  stats: PropTypes.object.isRequired,
 };
 
 export default Profile;

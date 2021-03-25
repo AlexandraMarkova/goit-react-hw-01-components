@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 const Profile = ({ avatar, name, tag, location, stats }) => {
   return (
@@ -36,7 +36,7 @@ const Profile = ({ avatar, name, tag, location, stats }) => {
 
 Profile.defaultProps = {
   avatar:
-    "https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder",
+    'https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder',
 };
 
 Profile.propTypes = {

@@ -1,8 +1,14 @@
+import React from "react";
+
 import user from './user.json';
 import statisticalData from "./statistical-data.json";
-import React from "react";
-import Profile from './components/Profile';
-import Statistics from "./components/Statistics";
+import friends from "./friends.json";
+import items from "./transactions.json";
+
+import Profile from './components/Profile/Profile';
+import Statistics from "./components/Statistics/Statistics";
+import FriendList from "./components/Friend/FriendList";
+import TransactionHistory from "./components/Transaction/TransactionHistory";
 
 
 const App = () => { 
@@ -18,6 +24,12 @@ const App = () => {
         <Statistics
           title={'Upload stats'}
           stats={statisticalData}
+        />
+        <FriendList
+          friends={friends}
+        />
+        <TransactionHistory
+          items={items}
         />
       </div>
     );

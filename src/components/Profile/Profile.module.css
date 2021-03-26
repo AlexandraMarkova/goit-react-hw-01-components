@@ -1,38 +1,36 @@
 .profile {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.548);
-    transition: 0.3s;
-    width: 250px;
-    border-radius: 5px;
-    background: rgb(187, 231, 235);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.548);
+  transition: 0.3s;
+  width: 250px;
+  border-radius: 5px;
+  background: rgb(187, 231, 235);
 
-    margin-left: auto;
-    margin-right: auto;
-        margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .profile:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .img {
-    width: 100%;
+  width: 100%;
 }
 
 .description {
-     padding: 2px 16px;
-     text-align: center;
+  padding: 2px 16px;
+  text-align: center;
 }
-
-
 
 .stats {
-list-style: none;
-    display: flex;
-    padding: 2px 16px;
-    text-align: center;
-    margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  padding: 2px 16px;
+  text-align: center;
+  margin-bottom: 0;
 }
-   
+
 /*     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 55%);
     transition: 0.3s;
     width: 250px;
@@ -42,4 +40,4 @@ list-style: none;
     margin-right: auto;
     margin-left: auto; */
 
-    /*  */
+/*  */

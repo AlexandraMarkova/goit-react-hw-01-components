@@ -1,31 +1,31 @@
 .statistics {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 250px;
-    background: rgb(187, 231, 235);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 250px;
+  background: rgb(187, 231, 235);
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .title {
-    text-align: center;
-    margin-top: 0;
+  text-align: center;
+  margin-top: 0;
 }
 
 .stat__list {
-    display: flex;
-    list-style: none;
-        text-align: center;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .stat__item {
-    width: 50px;
+  width: 50px;
 }
 
 .label {
-    display: block;
+  display: block;
 }

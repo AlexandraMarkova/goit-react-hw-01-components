@@ -10,10 +10,9 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
- background: #466368;
+  background: #466368;
   background: linear-gradient(#7ccfc4, #1f4041);
 }
-
 
 .link {
   text-decoration: none;
@@ -24,4 +23,3 @@ body {
   max-width: 100%;
   height: auto;
 }
-

@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
 
-
 function getRandomColor() {
   let color = '';
   for (let i = 0; i < 3; i++) {
@@ -23,7 +22,7 @@ const Statistics = ({ title, stats }) => {
             className={styles.stat__item}
             key={id}
             style={{
-              backgroundColor: getRandomColor()
+              backgroundColor: getRandomColor(),
             }}
           >
             <span className={styles.label}>{label} </span>

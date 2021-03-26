@@ -18,11 +18,16 @@ const FriendList = ({ friends }) => {
   );
 };
 
+FriendList.defaultProps = {
+  avatar:
+    'https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder',
+};
+
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
+      avatar: PropTypes.string,
       id: PropTypes.number.isRequired,
-      avatar: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       isOnline: PropTypes.bool.isRequired,
     }),

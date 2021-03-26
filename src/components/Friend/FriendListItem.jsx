@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styles from './Friend.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
@@ -12,13 +12,13 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
   );
 };
 
-FriendListItem.defaultProps = {
-  avatar:
-    'https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder',
-};
+// FriendListItem.defaultProps = {
+//   avatar:
+//     'https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder',
+// };
 
-FriendListItem.propTypes = {
-  avatar: PropTypes.string,
-};
+// FriendListItem.propTypes = {
+//   avatar: PropTypes.string,
+// };
 
 export default FriendListItem;

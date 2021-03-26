@@ -1,0 +1,38 @@
+.friend__list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 55%);
+  transition: 0.3s;
+  width: 250px;
+  border-radius: 5px;
+  background: rgb(187, 231, 235);
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+.online {
+  composes: status;
+  background: green;
+}
+
+.offline {
+  composes: status;
+  background: red;
+}
